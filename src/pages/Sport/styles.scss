@@ -1,0 +1,57 @@
+.container-sport{
+    background-color: #BBD1E4;
+    max-width: 800px;
+    padding: 0 1.5rem;
+    margin: auto;
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+    font-size: 3rem;
+    font-weight: 700;
+    color: #3880BE;
+    margin-top: -2rem;
+
+    @media (max-width: 577px) {
+        margin: -2rem 2rem 0 2rem;
+        text-align: center;
+    }
+}
+
+
+
+.image{
+    margin: 1rem 0;
+    
+    img{
+        width: 100%;
+        height: auto;
+    }
+}
+
+.description{
+    color: #3880BE;
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+    font-weight: 700;
+
+}
+
+.text{
+    color: #000000;
+    margin-bottom: 1rem;
+
+    @media (max-width: 577px) {
+        font-size: 1.25rem;
+    }
+}
+
+.hastag{
+    font-size: 0.75rem;
+    color: #3880BE;
+
+    @media (max-width: 577px) {
+        font-size: 1rem;
+    }
+}

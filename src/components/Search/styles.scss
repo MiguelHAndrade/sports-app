@@ -1,0 +1,18 @@
+.search{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 0 1.5rem 0;
+}
+
+.search-results{
+    color: #3880BE;
+    font-weight: 700;
+}
+
+.search-form{
+    input{
+        color: #3880BE;
+        width: 10rem;
+    }
+}

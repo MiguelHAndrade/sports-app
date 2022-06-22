@@ -1,0 +1,23 @@
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 5rem;
+    background-color: #77A3CA;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 2.5rem;
+}
+
+header:hover{
+    color: #3880BE;
+
+    @media (max-width: 577px) {
+        color: #ffffff;
+    }
+}
